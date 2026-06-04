@@ -1,0 +1,45 @@
+.navBar {
+    display: flex;
+    background-color: var(--corDeFundo);
+    padding: 35px;
+    gap: 20px;
+}
+
+.navBarSocial {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.navBarCars {
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+/* .navBarLinks {
+    display: flex;
+    gap: 30px;
+} */
+
+.navBar a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+@media (max-width: 720px) {
+    .navBar a {
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .navBarCars {
+        gap: 0px;
+
+    }
+    .navBarSocial{
+        display: none;
+    }
+}
