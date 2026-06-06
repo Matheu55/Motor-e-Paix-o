@@ -1,44 +1,49 @@
 .navBar {
     display: flex;
+    justify-content: space-between;
     background-color: var(--corDeFundo);
     padding: 35px;
-    gap: 20px;
 }
-
-.navBarSocial {
-    display: flex;
-    gap: 30px;
-    
-}
-
-.navBarCars {
-    display: flex;
-    gap: 30px;
-    margin: auto;
-}
-/* .navBarLinks {
-    display: flex;
-    gap: 30px;
-} */
 
 .navBar a {
     text-decoration: none;
     font-size: 30px;
     color: white;
+    background-color: var(--corDeFundo);
+}
+
+.navBarSocialLinks {
+    display: flex;
+    gap: 20px;
+    background-color: var(--corDeFundo);
+    
+}
+
+
+.navBarCars {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navBarCarsLinks {
+    display: flex;
+    gap: 25px;
+    background-color: var(--corDeFundo);
 }
 
 
 
 @media (max-width: 720px) {
+    .navBar {
+        padding-bottom: 100px;
+    }
     .navBar a {
         font-size: 20px;
         text-align: center;
 
     }
-    .navBarCars {
-        gap: 0px;
 
-    }
     .navBarSocial{
         display: none;
     }
