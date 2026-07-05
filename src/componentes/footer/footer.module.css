@@ -1,0 +1,6 @@
+.title{
+    text-align: center;
+    font-size: 30px;
+    background-color: var(--corSecundaria);
+    padding: 10px;
+}

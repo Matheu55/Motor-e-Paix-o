@@ -1,22 +1,24 @@
 .navBar {
     display: flex;
     justify-content: space-between;
-    background-color: var(--corDeFundo);
+    background-color: var(--corSecundaria);
     padding: 35px;
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
 }
 
 .navBar a {
     text-decoration: none;
     font-size: 30px;
     color: white;
-    background-color: var(--corDeFundo);
+    background-color: var(--corSecundaria);
 }
 
 .navBarSocialLinks {
     display: flex;
     gap: 20px;
-    background-color: var(--corDeFundo);
-    
+    background-color: var(--corSecundaria);
 }
 
 
@@ -24,12 +26,13 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 
 .navBarCarsLinks {
     display: flex;
     gap: 25px;
-    background-color: var(--corDeFundo);
+    background-color: var(--corSecundaria);
 }
 
 

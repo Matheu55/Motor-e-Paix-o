@@ -1,0 +1,16 @@
+.carDescription {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 35px;
+    background-color: var(--corSecundaria);
+    border-radius: 30PX;
+    margin-top: 65PX;
+    margin-bottom: 65PX;
+}
+
+.carDescriptionText {
+    font-size: 32PX;
+    text-align: justify;
+    background-color: var(--corSecundaria);   
+}

@@ -6,7 +6,7 @@
 
 .bannerDiv {
     display: flex;
-    background-color: var(--corDeFundo);
+    background-color: var(--corSecundaria);
     margin-left: 15px;
     margin-right: 15px;
     padding: 20px;
@@ -18,7 +18,7 @@
 .bannerDiv {
     display: flex;
     gap: 20px;
-    background-color: var(--corDeFundo);
+    background-color: var(--corSecundaria);
     margin: 0 15px;
     padding: 20px;
     border-radius: 10px;
@@ -29,7 +29,7 @@
     min-width: 0;
     aspect-ratio: 16 / 9;
     object-fit: cover;
-    border: solid 10px var(--corDeFundo);
+    border: solid 10px var(--corSecundaria);
     border-radius: 60px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
 }
@@ -47,7 +47,7 @@
     display: block;
     margin: 0 auto;
     padding: 1px;
-    border: solid 10px var(--corDeFundo);
+    border: solid 10px var(corSecundaria);
     border-radius: 60px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.100);
 } */
